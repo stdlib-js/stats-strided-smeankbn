@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import smeankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeankbn@deno/mod.js';
+import smeankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeankbn@v0.1.1-deno/mod.js';
 ```
 
 #### smeankbn( N, x, strideX )
@@ -160,7 +160,7 @@ var v = smeankbn.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import smeankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeankbn@deno/mod.js';
+import smeankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeankbn@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
